@@ -1,7 +1,7 @@
 body {
   font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background: #212121;
+  background: #1c313a;
 }
 
 body::-webkit-scrollbar {
@@ -37,14 +37,14 @@ ul {
 }
 
 li {
-    background: #616161;
+    background: #455a64;
     height: 40px;
     color: #eee;
     line-height: 40px;
 }
 
 li:hover, li:nth-child(2n):hover {
-    background: #212121;
+    background: #1c313a;
 }
 
 a {
@@ -53,7 +53,7 @@ a {
 }
 
 li:nth-child(2n) {
-      background: #424242;
+      background: #37474f;
 }
   
 h1 {
@@ -88,17 +88,18 @@ h1 {
 }
 
 .textbox {
-  background-color: #fff;
+  background-color: #1c313a;
   height: 38px;
   width: 350px;
   vertical-align: top;
-  border: 2px solid #d9d9d9;
+  border: 2px solid #000a12;
   padding: 0 10px;
+  margin-bottom: 20px;
 }
 
 .textbox:focus {
     outline: none;
-    border-color: #2196F3;
+    border-color: #2962ff;
 }
 
 @media only screen and (max-width: 45em) {
@@ -119,7 +120,7 @@ h1 {
 }
 
 .google {
-  margin: 30px auto 30px;
+  margin: 50px auto 20px;
   height: 80px;
   display: 
 }
