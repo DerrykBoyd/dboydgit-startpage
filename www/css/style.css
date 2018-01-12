@@ -95,6 +95,7 @@ h1 {
   border: 2px solid #000a12;
   padding: 0 10px;
   margin-bottom: 20px;
+  color: lightgray;
 }
 
 .textbox:focus {
@@ -122,7 +123,7 @@ h1 {
 .google {
   margin: 50px auto 20px;
   height: 80px;
-  display: 
+  display: block;
 }
 
 .container a {
